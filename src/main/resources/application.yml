@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: challenge-backend
+
+  r2dbc:
+    url: ${SPRING_R2DBC_URL} #r2dbc:postgresql://localhost:5432/backend_challenge
+    username: backend_challenge
+    password: backend_challenge123
+    pool:
+      initial-size: 5
+      max-size: 20
+
+  flyway:
+    url: ${SPRING_DATASOURCE_URL}  #jdbc:postgresql://localhost:5432/backend_challenge
+    user: backend_challenge
+    password: backend_challenge123
+    table: flyway_backend_schema_history
+    locations: classpath:/db/migration
+
+
+server:
+  port: 8081

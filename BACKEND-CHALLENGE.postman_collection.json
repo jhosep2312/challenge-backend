@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "85090285-3b93-43d9-9370-c7278ee2e6bb",
+		"name": "BACKEND-CHALLENGE",
+		"description": "Empoints for test challenge, do click on View complete documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "16665716"
+	},
+	"item": [
+		{
+			"name": "calculate-numbers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{host}}/api/backend/calculate-percentage/100/50"
+			},
+			"response": []
+		},
+		{
+			"name": "retrieve-request-history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{host}}/api/backend/get-all-historic-request"
+			},
+			"response": []
+		},
+		{
+			"name": "get-cache-key",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{host}}/api/backend/get-caffeine-key/PERCENTAGE_KEY"
+			},
+			"response": []
+		}
+	]
+}
