@@ -27,7 +27,7 @@ Un aspecto a mejorar es que actualmente no se está utilizando un sistema de pag
 comando para subir el docker compose este levantara la aplicacion y la base de datos 
 
 ```sh
-docker docker-compose up --build
+docker-compose up --build
 ```
 ### Local
 
